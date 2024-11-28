@@ -1,0 +1,26 @@
+#Elya Wygoda - 205365901
+
+Part 1 - Linux basics:
+
+Q1. 1.9 Megabytes.
+
+Q2. There are 29135 lines in the file, and 4391 proteins in the E. coli proteome.
+I used the `wc -l` command to count the lines,
+and the `grep ">" ../data/e_coli_proteins.fasta | wc -l` command
+to search for the ">" character and count the lines in the output.
+
+Q3. There are 11 headers labeled with DNA polymerase.
+
+Part 2 - Blast:
+
+Q1. 4391 sequences were added to the Blast DB according to the log file.
+
+Q2. The following new files were created:
+
+e_coli_proteins.fasta.psq  e_coli_proteins.fasta.pdb  e_coli_proteins.fasta.pot
+e_coli_proteins.fasta.pin  e_coli_proteins.fasta.pto  e_coli_proteins.fasta.pjs
+e_coli_proteins.fasta.phr  e_coli_proteins.fasta.ptf
+
+Q3. "sp|A0A385XJL2|YGDT_ECOLI" got 10 hits with 1 perfect match.
+
+Q4. The protein in E.coli is "L-Rhamnulokinase" with 94.683% identity.

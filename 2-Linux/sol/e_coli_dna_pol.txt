@@ -1,0 +1,11 @@
+>sp|P00582|DPO1_ECOLI DNA polymerase I OS=Escherichia coli (strain K12) OX=83333 GN=polA PE=1 SV=1
+>sp|P03007|DPO3E_ECOLI DNA polymerase III subunit epsilon OS=Escherichia coli (strain K12) OX=83333 GN=dnaQ PE=1 SV=1
+>sp|P06710|DPO3X_ECOLI DNA polymerase III subunit tau OS=Escherichia coli (strain K12) OX=83333 GN=dnaX PE=1 SV=1
+>sp|P0ABS8|HOLE_ECOLI DNA polymerase III subunit theta OS=Escherichia coli (strain K12) OX=83333 GN=holE PE=1 SV=1
+>sp|P10443|DPO3A_ECOLI DNA polymerase III subunit alpha OS=Escherichia coli (strain K12) OX=83333 GN=dnaE PE=1 SV=1
+>sp|P21189|DPO2_ECOLI DNA polymerase II OS=Escherichia coli (strain K12) OX=83333 GN=polB PE=1 SV=2
+>sp|P28630|HOLA_ECOLI DNA polymerase III subunit delta OS=Escherichia coli (strain K12) OX=83333 GN=holA PE=1 SV=1
+>sp|P28631|HOLB_ECOLI DNA polymerase III subunit delta' OS=Escherichia coli (strain K12) OX=83333 GN=holB PE=1 SV=2
+>sp|P28632|HOLD_ECOLI DNA polymerase III subunit psi OS=Escherichia coli (strain K12) OX=83333 GN=holD PE=1 SV=1
+>sp|P28905|HOLC_ECOLI DNA polymerase III subunit chi OS=Escherichia coli (strain K12) OX=83333 GN=holC PE=1 SV=1
+>sp|Q47155|DPO4_ECOLI DNA polymerase IV OS=Escherichia coli (strain K12) OX=83333 GN=dinB PE=1 SV=1

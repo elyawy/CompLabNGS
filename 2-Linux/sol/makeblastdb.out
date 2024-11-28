@@ -1,0 +1,12 @@
+
+
+Building a new DB, current time: 11/17/2024 11:28:36
+New DB name:   /home/pupkolab/Dev/CompLabNGS/2-Linux/data/e_coli_proteins.fasta
+New DB title:  /home/pupkolab/Dev/CompLabNGS/2-Linux/data/e_coli_proteins.fasta
+Sequence type: Protein
+Deleted existing Protein BLAST database named /home/pupkolab/Dev/CompLabNGS/2-Linux/data/e_coli_proteins.fasta
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 4391 sequences in 0.07776 seconds.
+
+
