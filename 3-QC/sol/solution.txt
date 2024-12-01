@@ -1,0 +1,18 @@
+#Elya Wygoda - 205365901
+
+Q1. The first read header in R1 ends in '/1' and the first read in R2 ends in '/2'.
+
+Q2.
+Read length = 101
+Number of reads = 1782180
+Depth = 15.000015
+
+Q3. Yes, The 'Per base sequence content' plot. There are no big differences between R1 and R2.
+There was also some presence of 'Adapter Content' of type "Nextera"
+
+Q4. I used the following command 'trimmomatic PE SRR1569760_sub_1.fastq.gz SRR1569760_sub_2.fastq.gz -baseout SRR1569760 ILLUMINACLIP:NexteraPE-PE.fa:2:30:10 HEADCROP:20'
+I got rid of the adapter "Nextera" using the 'ILLUMINACLIP:NexteraPE-PE.fa:2:30:10' module.
+And I clipped the 20 first bases of each read using the 'HEADCROP:20' module, because the quality was poor there.
+
+Q5. Now that the average sequence length is about 80 and there are 1643326 sequences left:
+Depth = 10.955506667
