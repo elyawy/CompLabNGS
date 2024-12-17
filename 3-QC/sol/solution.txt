@@ -4,8 +4,8 @@ Q1. The first read header in R1 ends in '/1' and the first read in R2 ends in '/
 
 Q2.
 Read length = 101
-Number of reads = 1782180
-Depth = 15.000015
+Number of reads = 1782180*2
+Depth = 30.00003
 
 Q3. Yes, The 'Per base sequence content' plot. There are no big differences between R1 and R2.
 There was also some presence of 'Adapter Content' of type "Nextera"
@@ -15,4 +15,4 @@ I got rid of the adapter "Nextera" using the 'ILLUMINACLIP:NexteraPE-PE.fa:2:30:
 And I clipped the 20 first bases of each read using the 'HEADCROP:20' module, because the quality was poor there.
 
 Q5. Now that the average sequence length is about 80 and there are 1643326 sequences left:
-Depth = 10.955506667
+Depth = 21.911013334
