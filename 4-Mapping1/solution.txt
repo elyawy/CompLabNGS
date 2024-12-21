@@ -1,0 +1,37 @@
+#Elya Wygoda - 205365901
+
+Q1. In "data/RM11_genes.fasta" there are 5377 records, each of them is a gene.
+In "data/S288C_reference_sequence_R64-2-1_20150113.fsa" there are 17 records, 16 for the chromosomes and 1 for the mitochondria.
+
+Q2. Yes, there were two hits, one in ChrXII, and the other in ChrIV. 
+The hit in ChrXII is better since it has a higher sequence identity, higher bit score, and matches the sequence from the start.
+At position 515262 in ChrXII, and position 1454447 in ChrIV.
+I think both hits are reliable since they have a 0 e-score.
+
+Q3. There were 5363 RM11 genes found after removing those that appear more than once.
+The blastn command: "blastn -db data/S288C -query data/RM11_genes.fasta > complete_query.txt -evalue 0.001 -outfmt 6 -max_target_seqs 5"
+The filtering command: "cat complete_query.txt | cut -f 1 | uniq | wc -l"
+
+Genes with no hit:
+
+EDV12486.1
+EDV10954.1
+EDV10956.1
+EDV12565.1
+EDV10957.1
+EDV12484.1
+EDV11338.1
+EDV10955.1
+EDV12485.1
+EDV12487.1
+EDV09647.1
+EDV08404.1
+EDV08447.1
+EDV10953.1
+
+command: 
+"for i in $(cat all_genes.txt); do [[ ! $(grep gene_matches.txt -e $i) ]] && echo "no match for $i" ; done"
+
+Q4. There were 1414 genes with no mismatches and no gaps.
+
+Command: "cat complete_query.txt | cut -f 5,6 |  grep "^0     0$" | wc -l"
