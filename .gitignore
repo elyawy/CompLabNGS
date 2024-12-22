@@ -166,3 +166,11 @@ taungs/
 10-RNA2/tmp/
 10-RNA2/10-RNA2/data/*bam
 10-RNA2/10-RNA2/data/*bai
+
+# large files:
+5-Mapping2/data/sorted_above_30_paired.bam
+5-Mapping2/data/sorted_basic.bam
+5-Mapping2/data/above_30_paired.bam
+5-Mapping2/data/basic.bam
+5-Mapping2/data/above_30.sam
+5-Mapping2/data/aln-pe.sam

@@ -1,0 +1,14 @@
+#Elya Wygoda - 205365901
+
+
+Q1. 3220612 + 0 properly paired (97.99% : N/A)
+
+Q2. 2780900 out of 3290030: 84.52%
+
+Q3. No pairs were mapped on different chromosomes with "mapq >= 30" and only "properly paired" reads.
+Without these criteria, there were 5277 pairs on different chromosomes.
+
+Q4. The average depth is about 24.
+
+Q5. From the IGV docs: "Larger than expected insert size: Both reads are red",
+"Smaller than expected insert size: Both reads are blue".
