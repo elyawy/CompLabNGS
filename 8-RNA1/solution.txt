@@ -1,0 +1,13 @@
+#Elya Wygoda - 205365901
+
+
+Q1. I filtered 0% only trimmed the edges with poor base quality.
+
+Q2. The maximal intro size in 2482.
+
+Q3. Yes and Yes, upstream of YNL162W there are intronic reads. and in both YDL083c and YNL162W
+The splicing region was correctly identified.
+
+Q4. Yes it is a strand-specific RNA-seq library, forward (0.94 / 0.06).
+
+Q5. 89.75% reads mapped to the genome, while 25.95% mapped to genes.
